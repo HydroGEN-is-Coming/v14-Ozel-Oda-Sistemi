@@ -1,0 +1,27 @@
+{
+  "name": "raven",
+  "version": "4.0.0",
+  "description": "Raven sunucusu için yapılan gelişmiş özel oda sistemli bot altyapısı.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "Ly3ssia",
+  "license": "MIT",
+  "dependencies": {
+    "@discordjs/builders": "^1.0.0",
+    "@discordjs/voice": "^0.11.0",
+    "croxydb": "^0.0.7",
+    "discord.js": "^14.0.1",
+    "express": "^4.18.1",
+    "ffmpeg": "^0.0.4",
+    "ffmpeg-static": "^5.1.0",
+    "fs": "^0.0.1-security",
+    "http": "^0.0.1-security",
+    "libsodium-wrappers": "^0.7.10"
+  },
+  "engines": {
+    "node": "16.x"
+  }
+}
